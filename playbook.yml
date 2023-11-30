@@ -20,7 +20,7 @@
         msg: |-
             {{ msg.split('
             ') }}
-      name: "network info"
+      #name: "network info"
       vars: 
         msg: |
             All Interface List: {{ ansible_interfaces }}
